@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "node": "^17.4.0",
+    "nodemailer": "^6.7.2"
+  }
+}
