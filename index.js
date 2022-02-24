@@ -2,7 +2,7 @@ const nodemailer = require("nodemailer")
 
 let transporter = nodemailer.createTransport({
     host: "smtp.gmail.com", //Servidor de email
-    port: n465, //A porta do servidor
+    port: 465, //A porta do servidor
     secure: true, //Se tem ou não criptografia SSL ou TLS
     auth: { //Colocar uma conta de email com a senha
         user: "emaildetestedojnc@gmail.com", //Email
